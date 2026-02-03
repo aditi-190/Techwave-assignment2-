@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
 }
 body{
   background-color: #0b0620;
@@ -11,7 +12,6 @@ body{
 .container {
   /*display: flex;*/
 /*max-width: 1200px;*/
-
 
 }
 .primary-btn {
@@ -101,38 +101,55 @@ nav > ul li a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 80px 0;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   color:white ;
-  min-height: 100vh;
+  min-height: 500px;
   width: 100%;
   
 }
-/* background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  min-height: 500px;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: white;
-  padding-top: 80px; 
-.banner-content{
-display: flex;
-flex-direction: column;
-align-items: center;
+.banner1{
+  margin: 101px 525px;
 }
-*/
+.banner-section .rounded-mic-parent{
+position: relative;
+}
+.banner-section .rounded-mic-parent .rounded-shape {
+width: 350px;
+height: auto;
+
+}
+.banner-section .rounded-mic-parent .mic{
+  width: 150px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+.banner-section .rounded-mic-parent span{
+   background-color: #00ff88;
+    color: black;
+    font-weight: 700;
+    padding: 6px 15px;
+    border-radius:20px ;
+    display:inline-block ;
+    position:absolute;
+    left: 344px;
+    top: -5px;   
+}
+
 .banner-section>div>h2 {
   font-weight: 700;
   font-size: 32px;
 }
-.banner-section>div>p{
+.para{
   max-width: 650px;
+  font-weight: 400;
+  font-size: 16px;
 }
 .banner-section>div{
   display: flex;
@@ -141,37 +158,7 @@ align-items: center;
 
 }
 
-.banner-section .rounded-mic-parent {
-  position: relative;
-  width: 170px;
-  margin-bottom: 30px;
 
-}
-.banner-section .rounded-mic-parent .rounded-shape {
-  width: 100%;
-  display: block;
-  box-sizing: border-box;
-}
-.banner-section .rounded-mic-parent .mic {
-  width: 70px;
-  height: auto;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  align-items: center;
-}
-.banner-section .rounded-mic-parent span {
-  background-color: #00ff88;
-  color: black;
-  font-weight: 700;
-  padding: 6px 15px;
-  border-radius: 20px;
-  display: inline-block;
-  position: absolute;
-  left: 344px;
-  top: -5px;
-}
 
 
 
