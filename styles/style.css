@@ -3,15 +3,25 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+<<<<<<< HEAD
   font-family:  "Inter", sans-serif;
+=======
+  font-family: "Mulish", sans-serif;
+>>>>>>> 2d09a521fb7d619dc6637d43be26697d353148b5
 }
 body{
   background-color: #0b0620;
 
 }
 .container {
+<<<<<<< HEAD
   max-width: 1900px;
   margin: auto;
+=======
+  /*display: flex;*/
+/*max-width: 1200px;*/
+
+>>>>>>> 2d09a521fb7d619dc6637d43be26697d353148b5
 }
 .primary-btn {
   background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
@@ -156,6 +166,7 @@ height: auto;
   gap: 15px;
 
 }
+<<<<<<< HEAD
 /*About section*/
 /*.about{
   margin: 60px auto;
@@ -225,6 +236,9 @@ height: auto;
  
 
 }
+=======
+
+>>>>>>> 2d09a521fb7d619dc6637d43be26697d353148b5
 
 
 
